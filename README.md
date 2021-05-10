@@ -1,2 +1,2 @@
-# sortingvisualizer
-visualization of sorting algorithms in c++ with raylib
+# Sorting Visualizer
+Visualization of selection, insertion, and bubble sort algorithms in c++ with the raylib library.

@@ -10,18 +10,12 @@ void swap(int *x_pointer, int *y_pointer)
     *x_pointer = *y_pointer;
     *y_pointer = temp;
 }
-
-
-
-
-
 int main(void) {
     const int screenWidth = 800;
     const int screenHeight = 800;
 
     InitWindow(screenWidth, screenHeight, "sorting visualizer");
-    SetTargetFPS(144);   
-    
+    SetTargetFPS(144);
     double curTime = GetTime();
     
     ///////SETUP RANDOM VECTOR///////
@@ -173,13 +167,6 @@ int main(void) {
                     
                 }
                 
-                
-                
-                
-                
-                
-                
-            
                 if (done) {
                     for (int i = 0; i < n;i++) {
                         DrawRectangle(i, 0, 1, v[i], GREEN);

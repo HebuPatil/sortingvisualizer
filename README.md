@@ -1,5 +1,5 @@
 # Sorting Visualizer
-Visualization of selection, insertion, and bubble sort algorithms in c++ with the raylib library.
+Visualization of selection, insertion, and bubble sort algorithms in c++ with the [raylib](https://github.com/raysan5/raylib) library.
 
 
 # Selection Sort
